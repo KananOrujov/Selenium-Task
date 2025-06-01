@@ -1,4 +1,16 @@
+# Ignore IDE files
+.idea/
+*.iml
 
-.gradle
-build
-src/test/resources/
+# Ignore Gradle wrapper and build files if you don't want them
+gradle/
+build/
+gradlew
+gradlew.bat
+
+# Ignore drivers or other folders you don’t want
+drivers/
+
+# Ignore other temp files
+*.log
+*.tmp
