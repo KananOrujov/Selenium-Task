@@ -1,16 +1,12 @@
-# Ignore IDE files
+# IntelliJ IDEA
 .idea/
-*.iml
 
-# Ignore Gradle wrapper and build files if you don't want them
-gradle/
+# Gradle files and folders
+.gradle/
 build/
+gradle/wrapper/
+
+# Drivers folder (if you want to ignore it)
+drivers/
 gradlew
 gradlew.bat
-
-# Ignore drivers or other folders you don’t want
-drivers/
-
-# Ignore other temp files
-*.log
-*.tmp
