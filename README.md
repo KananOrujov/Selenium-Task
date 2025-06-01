@@ -1,12 +1,4 @@
 
-# Selenium Tests for BugBug.io
+# This project is a Java Selenium test automation framework utilizing TestNG, created to perform automated testing on https://spacehey.com/.
 
-## Structure
-- Page Object Model under `pages/`
-- Tests in `tests/`
-- Config in `resources/config.properties`
 
-## Run Tests
-```bash
-./gradlew test
-```
